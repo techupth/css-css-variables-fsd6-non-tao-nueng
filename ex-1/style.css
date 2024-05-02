@@ -4,4 +4,28 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root{
+  --Branding:#ff7f50;
+  --Secondary:cornsilk;
+  --Highlight:#d2691e;
+  --Muted:#a9a9a9;
+  --level1:1px;
+  --level2:5px;
+  --level3:10px;
+  --level4:15px;
+  --level5:20px;
+  --small:12px;
+  --medium:16px;
+  --large:20px;
+  --extra:30px;
+  --extra2:50px;
+  --extra3:100px
+}
+body{
+  background-color: var(--Secondary);
+  padding: var(--level5);
+}
+h1{
+  color: var(--Branding);
+  font-size: var(--extra3)
+}
